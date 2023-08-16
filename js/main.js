@@ -197,3 +197,4 @@ clearBtn.addEventListener('click', () => {
 
 console.log('Hello world');
 console.log('This course is cool');
+console.log('I am great');
