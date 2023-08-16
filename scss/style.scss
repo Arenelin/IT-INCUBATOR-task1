@@ -1,0 +1,104 @@
+
+@import 'mixin.scss';
+@import 'null.scss';
+
+
+
+.calculate {
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 150px;
+  border: 1px solid rgba(167, 162, 162, 0.979);;
+  background-color: #fff;
+  border-radius: 10px;
+  &__top {
+    max-width: 100%;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  &__btn{
+    padding: 10px 25px;
+    border: 1px solid black;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  &__symbols{
+    flex-basis: 100px;
+  }
+  &__buttons-operations{
+    flex-basis: 250px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__result{
+    font-size: 24px;
+    font-weight: 700;
+  }
+  &__numbers{
+    flex-basis: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+  }
+}
+.showing__result{
+  border-bottom: 1px solid rgba(167, 162, 162, 0.979);
+  text-align: right;
+  padding: 0px 11px 11px;
+  font-size: 24px;
+  color: #7c7b7b;
+  font-weight: 500;
+}
+.input {
+  padding: 30px 15px 3px 15px;
+  font-size: 50px;
+  width: 100%;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.symbols{
+  background-color: rgb(255, 213, 96);
+  padding: 12px 43px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+
+}
+
+.numbers{
+  background-color: #fff;
+  flex-grow: 1;
+}
+.minus{
+  padding: 12px 45.5px;
+}
+.multiply{
+  padding: 12px 44px;
+}
+.devide{
+  padding: 12px 46px;
+}
+
+.operations{
+  flex-basis: 80px;
+  flex-grow: 1;
+}
+
+.equality{
+  min-height: 98px;
+  background-color: rgb(255, 213, 96);
+  padding: 12px 43px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+}
+.nul{
+min-height: 78px;
+}
+
